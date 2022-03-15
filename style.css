@@ -36,6 +36,7 @@ a {
   mix-blend-mode: difference;
   top: 0px;
   left: 0px;
+  z-index:+99;
 }
 
 .logo {
@@ -219,7 +220,7 @@ a {
 
 .regional-intro-img img {
   width: 86%;
-  opacity: 70%;
+  /* opacity: 70%; */
 }
 
 .regional-img {
@@ -252,7 +253,7 @@ a {
 }
 
 .tech-openimg img {
-  width: 85%;
+  width: 80%;
 }
 
 .tech-opentext {
@@ -298,8 +299,13 @@ a {
 }
 
 .list {
-  font-size: 90%;
+  display: flex;
+  font-size: 95%;
   margin-left: 5%;
+  width: 90%;
+  align-items: center;
+  row-gap: 5%;
+  flex-wrap: wrap;
 }
 
 .vl2 {
