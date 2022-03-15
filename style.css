@@ -29,6 +29,7 @@ a {
   background-color: transparent;
   width: -webkit-fill-available;
   height: 90px;
+  z-index:+99;
   display: flex;
   position: fixed;
   /* PROF NOTE: We want to set the entire nav bar's blend mode to "difference"
@@ -36,7 +37,6 @@ a {
   mix-blend-mode: difference;
   top: 0px;
   left: 0px;
-  z-index:+99;
 }
 
 .logo {
